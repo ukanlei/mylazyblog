@@ -1,4 +1,4 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+.glitchdotcom.json
+build
+node_modules
+web_modules
