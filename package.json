@@ -8,10 +8,13 @@
   },
   "dependencies": {
     "eleventy-plugin-seo": "0.5.2",
-    "luxon": "2.3.0"
+    "luxon": "^2.3.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23"
   },
   "engines": {
     "node": "12"
