@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #D7F5EF;
+  --color-bg: white;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
   --wrapper-height: 85vh;
@@ -102,6 +102,21 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 /* Page structure */
+header {
+  padding: 30px 60px;
+  overflow: hidden;
+  
+}
+
+header h3{
+  float: left;
+  margin-top: 0px
+}
+
+header nav{
+  float: right;
+}
+
 body {
   font-family: var(--font-family);
   background-color: var(--color-bg);
@@ -124,6 +139,7 @@ p {
   line-height: 1.5 !important;
   font-size: 1rem;
 }
+
 h1,
 h2,
 h3,
@@ -135,6 +151,7 @@ h5 {
   line-height: 1.1;
   color: var(--color-text-main);
 }
+
 h1 {
   margin-top: 1rem;
   margin-bottom: 1.75rem;

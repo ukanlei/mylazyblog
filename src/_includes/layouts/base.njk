@@ -8,34 +8,42 @@
     <link rel="icon" href="https://glitch.com/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Your new 11ty blog" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/public/style.css" />
     {% seo "" %}
   </head>
   <body>
-    <div class="navBar">
-      <a href="/">Home</a>
-      <span class="divider">|</span>
-      <a href="/posts">Posts</a>
-      <span class="divider">|</span>
-      <a href="/about">About</a>
-    </div>
-  <main>
-    
-    {# Page or post content will appear here #}
-  
-    {{ content | safe }}
+    <header>
+      
+      <h3>
+        Lazy Cook
+      </h3>
+      <nav>
+        <a href="/">Home</a>
+        <span class="divider">|</span>
+        <a href="/posts">Recipes</a>
+        <span class="divider">|</span>
+        <a href="/about">Lifestyle</a>
+        <span class="divider">|</span>
+        <a href="/about">About</a>
+      </nav>
+      
+    </header>
+    <main>
+      
+      {# Page or post content will appear here #}
 
-      <footer class="footer">
-        <div class="links">
-         Copyright 2022 © Lazy Cook. Built with Eleventy, Glitch, and lots of luvvvv.
-        </div>
-        <a class="btn--remix" target="_top" href="https://glitch.com/edit/#!/remix/glitch-hello-eleventy">
+      {{ content | safe }}
+      
+    </main>
+    <footer class="footer">
+      <div class="links">
+        Copyright 2022 © Lazy Cook. Built with Eleventy, Glitch, and lots of luvvvv.
+      </div>
+      <a class="btn--remix" target="_top" href="https://glitch.com/edit/#!/remix/glitch-hello-eleventy">
         <img src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140" alt="" /> 
         Remix on Glitch
-        </a>
-      </footer>
-    
-  </main>
-   
+      </a>
+    </footer>
   </body>
 </html>
