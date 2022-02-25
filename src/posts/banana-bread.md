@@ -10,8 +10,8 @@ layout: layouts/post.njk
 This recipe is oil-free, gluten-free, sugar-free, hassle-free, stress-free, dishwashing-free, and vegan—no need to turn on your oven or use any special tools. Instead, just grab a bowl and fork, mix the ingredients together, and pop it into the microwave. Within minutes, you will have a fibrous treat that your bowel movement will thank you for.
 
 ### Ingredients
-- 2 to 3 Brown bananas
-- 1 to 2 cups of Instant oatmeal
+2 to 3 Brown bananas\
+1 to 2 cups of Instant oatmeal
 
 ### Instructions
 1. Peel off and discard banana skin. Place banana in a microwave-safe bowl and use a fork to mash bananas until smooth, liquid-like form.
