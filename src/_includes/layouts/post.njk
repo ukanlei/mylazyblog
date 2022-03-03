@@ -13,7 +13,9 @@ templateClass: tmpl-home
     {# ADD P ELEMENT FROM TODO ON THE NEXT LINE #}
     
     {# Content from the body of the post markdown appears here #}
+    <img></img>
     {{ content | safe }}
+    
     <div class="controls">
     {# The previous and next post data is added in .eleventy.js #}
     {% if prevPost.url %}

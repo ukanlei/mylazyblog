@@ -1,15 +1,34 @@
 ---
 layout: layouts/home.njk
+info:
+  section1:
+    tag: Food
+    title: Lazy Banana Bread
+    summary: A go-to meal during my uni days. Quiet frankly, not sure if you can even call it bread.
+    img:
+  section2:
+    tag: 1
+    title: 1
+    summary: 1
+    img:
+  section3:
+    card1:
+      tag: 1
+      title: 1
+      summary: 1
+      img:
+    card2:
+      tag: 1
+      title: 1
+      summary: 1
+      img:
+    card3:
+      tag: 1
+      title: 1
+      summary: 1
+      img:
 ---
 
 <div class="illo-container">
   <img src="">
 </div>
-
-# Hello Eleventy!
-
-Welcome to the Glitch [Eleventy](https://www.11ty.dev/) starter, where you can create a blog or landing page that generates a static site.
-
-Each of the initial blog posts has special tips to help you get the most out of your new site–work through them all, learning how to add posts and customize how your site builds along the way. Once you've mastered the basics, you can delete all these posts and continue writing your own!
-
-### Latest Posts
