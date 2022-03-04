@@ -1,10 +1,12 @@
 ---
 layout: layouts/page.njk
+img:
+tag: [about]
 ---
 
 ## About this site
 
-Here you can write some details about you and your new blog: 
+Here you can write some details about you and your new blog:
 
 - 🎉 I love blogging
 - 💥 I built this site using [Eleventy](https://www.11ty.dev/) on [Glitch](https://glitch.com/)

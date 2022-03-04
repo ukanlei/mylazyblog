@@ -1,12 +1,10 @@
 ---
 title: Two Ingredient Banana Bread
-description: Writing my first post on my new Eleventy blog
 date: 2021-07-20
-tags: ["banana", "recipes"]
+category: food
+tags: [banana, recipes, food]
 layout: layouts/post.njk
 ---
-
-<img></img>
 
 This recipe is oil-free, gluten-free, sugar-free, hassle-free, stress-free, dishwashing-free, and vegan—no need to turn on your oven or use any special tools. Instead, just grab a bowl and fork, mix the ingredients together, and pop it into the microwave. Within minutes, you will have a fibrous treat that your bowel movement will thank you for.
 

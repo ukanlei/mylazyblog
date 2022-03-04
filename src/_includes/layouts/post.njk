@@ -8,12 +8,13 @@ templateClass: tmpl-home
 <div class="wrapper post">
   <div class="content">
     {# The post front matter includes the title property #}
+    <div>{{image}}</div>
+    <div>{{category}}</div>
     <h1 class="postTitle">{{title}}</h1>
 
     {# ADD P ELEMENT FROM TODO ON THE NEXT LINE #}
     
     {# Content from the body of the post markdown appears here #}
-    <img></img>
     {{ content | safe }}
     
     <div class="controls">
