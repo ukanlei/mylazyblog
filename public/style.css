@@ -112,21 +112,8 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
+  max-width: fit-content;
   margin: 0 auto;
-}
-
-.tags {
-  background-color: black;
-  border: none;
-  color: white;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
 
 /* Typography */
@@ -223,6 +210,30 @@ a:hover {
   margin-top: 1rem;
   margin-right: 2rem;
   transform: rotate(16deg);
+}
+
+.row-of-cards {
+  display: flex;
+}
+
+.cards {
+  text-align: center;
+}
+
+img.cards {
+  width: 95%;
+}
+
+.card-tags {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 /* Post */

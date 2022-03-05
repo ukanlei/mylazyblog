@@ -9,34 +9,40 @@ templateClass: tmpl-home
   <div class="content">
     <section>
       <img src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
-      <button class="tags">{{info.section1.tag}}</button>
-      {{info.section1.title}}
+      <button class="card-tags">{{info.section1.tag}}</button>
+      <h3>{{info.section1.title}}</h3>
       {{info.section1.summary}}
     </section>
     <section>
       <img src="{{info.section2.img}}" alt="{{info.section2.imgAlt}}">
-      <button class="tags">{{info.section2.tag}}</button>
-      {{info.section1.title}}
-      {{info.section1.summary}}
+      <button class="card-tags">{{info.section2.tag}}</button>
+      {{info.section2.title}}
+      {{info.section2.summary}}
     </section>
-    <section>
-      <div>
-        <img src="{{info.section3.card1.img}}" alt="{{info.section3.card1.imgAlt}}">
-        <button class="tags">{{info.section3.card1.tag}}</button>
-        {{info.section1.title}}
-        {{info.section1.summary}}
+    <section class="row-of-cards">
+      <div class="cards">
+        <img class="cards" src="{{info.section3.card1.img}}" alt="{{info.section3.card1.imgAlt}}">
+        <div>
+          <button class="card-tags">{{info.section3.card1.tag}}</button>
+          <h4>{{info.section3.card1.title}}</h4>
+          <p>{{info.section3.card1.summary}}</p>
+        </div>
       </div>
-      <div>
-        <img src="{{info.section3.card2.img}}" alt="{{info.section3.card2.imgAlt}}">
-        <button class="tags">{{info.section3.card2.tag}}</button>{{info.section1.tag}}
-        {{info.section1.title}}
-        {{info.section1.summary}}
+      <div class="cards">
+        <img class="cards" src="{{info.section3.card2.img}}" alt="{{info.section3.card2.imgAlt}}">
+        <div>
+          <button class="card-tags">{{info.section3.card2.tag}}</button>
+          <h4>{{info.section3.card2.title}}</h4>
+          <p>{{info.section3.card2.summary}}</p>
+        </div>
       </div>
-      <div>
-        <img src="{{info.section3.card3.img}}" alt="{{info.section3.card3.imgAlt}}">
-        <button class="tags">{{info.section3.card3.tag}}</button>
-        {{info.section1.title}}
-        {{info.section1.summary}}
+      <div class="cards">
+        <img class="cards" src="{{info.section3.card3.img}}" alt="{{info.section3.card3.imgAlt}}">
+        <div>
+          <button class="card-tags">{{info.section3.card3.tag}}</button>
+          <h4>{{info.section3.card3.title}}</h4>
+          <p>{{info.section3.card3.summary}}</p>
+        </div>
       </div>
     </section>
   </div>
