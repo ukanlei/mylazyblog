@@ -9,7 +9,9 @@ templateClass: tmpl-home
   <div class="content">
     {# The post front matter includes the title property #}
     <img src="{{image}}" alt="{{imageAlt}}" />
-    <div>{{category}}</div>
+    <span>
+    <button class="tags">{{category}}</button>
+    </span>
     <h1 class="postTitle">{{title}}</h1>
 
     {# ADD P ELEMENT FROM TODO ON THE NEXT LINE #}

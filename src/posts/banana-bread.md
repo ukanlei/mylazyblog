@@ -1,7 +1,7 @@
 ---
 title: Two Ingredient Banana Bread
 date: 2021-07-20
-category: food
+category: Food
 image: /images/bananaBread.png
 imageAlt: banana and oatmeal
 tags: [banana, recipes, food]
