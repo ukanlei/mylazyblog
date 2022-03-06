@@ -255,14 +255,31 @@ img.cover {
 }
 
 .line-break {
+  position: relative;
   text-align: center;
+  margin: 20px 0;
+}
+
+.line-break-text {
+  position: absolute;
+  font-style: italic;
+  background-color: white;
+  padding: 5px 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .first-section {
   display: flex;
   height: 400px;
   margin: 0 0.83%;
-  background-color: rgb(214, 162, 21);
+  background: rgb(254, 214, 79);
+  background: linear-gradient(
+    153deg,
+    rgb(243, 199, 55) 0%,
+    rgb(219, 161, 2) 100%
+  );
 }
 
 .section1-img {
