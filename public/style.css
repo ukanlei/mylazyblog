@@ -241,6 +241,19 @@ img.cover {
   width: 98.4%;
 }
 
+.lazySection {
+  position: relative;
+  text-align: center;
+}
+.whoislazy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 0;
+}
+
 /* Post */
 .post {
   place-items: normal;
