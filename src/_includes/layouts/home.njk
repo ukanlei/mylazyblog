@@ -7,16 +7,15 @@ templateClass: tmpl-home
 
 <div class="wrapper home">
   <div class="content">
-    <section>
-      <img src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
-      <button class="card-tags">{{info.section1.tag}}</button>
-      <h3>{{info.section1.title}}</h3>
-      {{info.section1.summary}}
+    <section class="first-section">
+      <div class="section1-info">
+        <button class="card-tags">{{info.section1.tag}}</button>
+        <div class="section1-header">{{info.section1.title}}</div>
+        {{info.section1.summary}}
+      </div>
+      <img class="section1-img" src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
     </section>
-    <section class="lazySection">
-      <img class="cover" src="{{info.section2.img}}" alt="{{info.section2.imgAlt}}">
-      <h3 class="whoislazy">{{info.section2.title}}</h3>
-    </section>
+    <section class="line-break"> More stuff to read </section>
     <section class="row-of-cards">
       <div class="cards">
         <img class="cards" src="{{info.section3.card1.img}}" alt="{{info.section3.card1.imgAlt}}">
@@ -43,7 +42,10 @@ templateClass: tmpl-home
         </div>
       </div>
     </section>
+    <section class="lazySection">
+      <img class="cover" src="{{info.section2.img}}" alt="{{info.section2.imgAlt}}">
+      <h3 class="whoislazy">{{info.section2.title}}</h3>
+    </section>
   </div>
 </div>
-
 

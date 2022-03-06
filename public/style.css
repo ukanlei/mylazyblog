@@ -237,7 +237,7 @@ img.cards {
 }
 
 img.cover {
-  margin: 0 0.83%;
+  margin: 1.7% 0.83%;
   width: 98.4%;
 }
 
@@ -252,6 +252,36 @@ img.cover {
   transform: translate(-50%, -50%);
   color: white;
   margin: 0;
+}
+
+.line-break {
+  text-align: center;
+}
+
+.first-section {
+  display: flex;
+  height: 400px;
+  margin: 0 0.83%;
+  background-color: rgb(214, 162, 21);
+}
+
+.section1-img {
+  object-fit: cover;
+  height: 400px;
+  width: 80%;
+}
+
+.section1-info {
+  margin: 50px 70px;
+  color: white;
+}
+
+.section1-header {
+  font-family: var(--font-family-header);
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 4rem;
+  margin-top: 1.5rem;
 }
 
 /* Post */
