@@ -9,7 +9,7 @@ info:
     imgAlt: Banana and Oatmeal
   section2:
     tag: Random
-    title: Who is Lazy Cook
+    title: Who is Lazy Cook?
     summary:
     img: /images/whoislazyCropped.png
     imgAlt: Drawing face over some lady

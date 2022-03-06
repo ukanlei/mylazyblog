@@ -5,19 +5,20 @@ templateClass: tmpl-home
 
 {# The Home page uses this template–it extends the base template #}
 
-<div class="wrapper home">
+<div class="wrapper">
   <div class="content">
-    <section class="first-section">
-      <div class="section1-info">
+    <article class="latest-post">
+      <img class="latest-post_img" src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
+      <header class = "latest-post_header">
         <button class="card-tags">{{info.section1.tag}}</button>
-        <div class="section1-header">{{info.section1.title}}</div>
-        {{info.section1.summary}}
-      </div>
-      <img class="section1-img" src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
-    </section>
+        <h2>{{info.section1.title}}</h2>
+        <p>{{info.section1.summary}}</p>
+        <span>&#8594;</span>
+      </header>
+    </article>
     <section class="line-break"> 
       <hr>
-      <div class="line-break-text">More stuff to read</div>
+      <div class="line-break-text">MORE STUFFFFFF</div>
     </section>
     <section class="row-of-cards">
       <div class="cards">
