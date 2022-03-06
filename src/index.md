@@ -11,7 +11,7 @@ info:
     tag: Random
     title: Who is Lazy Cook
     summary:
-    img: /images/whoislazy.png
+    img: /images/whoislazyCropped.png
     imgAlt: Drawing face over some lady
   section3:
     card1:

@@ -236,6 +236,11 @@ img.cards {
   cursor: pointer;
 }
 
+img.cover {
+  margin: 0 0.83%;
+  width: 98.4%;
+}
+
 /* Post */
 .post {
   place-items: normal;
