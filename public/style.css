@@ -33,6 +33,8 @@ body {
 footer {
   padding: 30px;
   font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 20px;
 }
 input {
   width: 75%;
@@ -48,9 +50,10 @@ input {
 
 .main-header {
   margin: 40px;
-  margin-left: 82px;
+  margin-left: 100px;
+  margin-right: 100px;
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 65% 40%;
   align-items: center;
   justify-items: left;
 }
@@ -60,8 +63,9 @@ input {
   margin-top: 0;
 }
 .ramen-logo {
-  position: absolute;
+  position: fixed;
   font-size: 5vw;
+  z-index: 9999;
 }
 .nav-contents {
   text-align: center;
@@ -73,19 +77,13 @@ input {
 .wrapper {
   min-height: var(--wrapper-height);
   place-items: center;
-  margin: 3rem 5rem 0;
+  margin: 3rem 9rem 0;
 }
 .content {
   display: flex;
   flex-direction: column;
   max-width: fit-content;
   margin: 0 auto;
-}
-.copyright {
-  display: inline;
-}
-.footer-nav {
-  float: right;
 }
 
 /* Typography */
@@ -142,24 +140,15 @@ a {
 }
 
 /* line break */
-.line-break {
-  position: relative;
-  text-align: center;
-  margin: 50px 0;
-}
-
-.line-break_h2 {
-  position: absolute;
+.line-break_h1 {
   font-style: italic;
-  background-color: white;
-  padding: 5px 20px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -77%);
+  padding: 5px 0;
+  margin-bottom: 50px;
 }
 
 .row-of-cards {
   display: flex;
+  padding-bottom: 30px;
 }
 
 .cards {
@@ -168,6 +157,7 @@ a {
 
 img.cards {
   width: 95%;
+  position: relative;
 }
 
 .card-tags {
@@ -181,6 +171,10 @@ img.cards {
   margin-top: 20px;
   cursor: pointer;
 }
+.header-card {
+  margin: 0 auto;
+  max-width: 200px;
+}
 
 img.cover {
   margin: 1.7% 0.83%;
@@ -190,6 +184,8 @@ img.cover {
 .lazySection {
   position: relative;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .whoislazy {
   position: absolute;
@@ -198,6 +194,8 @@ img.cover {
   transform: translate(-50%, -50%);
   color: white;
   margin: 0;
+  width: 600px;
+  text-shadow: 2px 2px rgb(189, 108, 255);
 }
 
 /* Post */
