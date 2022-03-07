@@ -11,15 +11,17 @@ templateClass: tmpl-home
       <img class="latest-post_img" src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
       <header class = "latest-post_header">
         <button class="card-tags">{{info.section1.tag}}</button>
-        <h2>{{info.section1.title}}</h2>
+        <h1>{{info.section1.title}}</h1>
         <p>{{info.section1.summary}}</p>
-        <span>&#8594;</span>
+        <a href="/">
+          <span>&#8594;</span>
+        </a>
       </header>
     </article>
-    <section class="line-break"> 
+    <div  class="line-break"> 
       <hr>
-      <div class="line-break-text">MORE STUFFFFFF</div>
-    </section>
+      <h2 class="line-break_h2">MORE STUFFFFFF</h2>
+    </div>
     <section class="row-of-cards">
       <div class="cards">
         <img class="cards" src="{{info.section3.card1.img}}" alt="{{info.section3.card1.imgAlt}}">

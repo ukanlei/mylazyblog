@@ -21,11 +21,11 @@
 }
 
 /* Page structure */
-header nav {
-  text-align: center;
-}
 header nav a {
-  margin: 0 2rem;
+  margin: 1rem;
+}
+header nav {
+  margin-top: 10px;
 }
 body {
   font-family: var(--font-family);
@@ -34,15 +34,46 @@ footer {
   padding: 30px;
   font-size: 0.9rem;
 }
-.header-nav {
-  padding: 30px 150px;
-  overflow: hidden;
+input {
+  width: 75%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 3px solid;
+  border-radius: 4px;
+}
+.search-icon {
+  margin-left: 14px;
+  width: 10%;
+}
+
+.main-header {
+  margin: 40px;
+  margin-left: 82px;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  align-items: center;
+  justify-items: left;
+}
+.header-logo {
+  align-items: center;
+  font-size: 10vw;
+  margin-top: 0;
+}
+.ramen-logo {
+  position: absolute;
+  font-size: 5vw;
+}
+.nav-contents {
   text-align: center;
 }
+.nav-bar {
+  font-size: 2vw;
+}
+
 .wrapper {
   min-height: var(--wrapper-height);
   place-items: center;
-  margin: 3rem 10rem 0;
+  margin: 3rem 5rem 0;
 }
 .content {
   display: flex;
@@ -56,9 +87,6 @@ footer {
 .footer-nav {
   float: right;
 }
-.logo {
-  width: 15rem;
-}
 
 /* Typography */
 h1,
@@ -66,7 +94,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0.8em 0 0.8rem;
+  margin: 0.4em 0 0.8rem;
   font-family: var(--font-family-header);
   font-weight: 600;
   line-height: 1.1;
@@ -87,6 +115,48 @@ a {
 }
 
 /* Layout: Home */
+.latest-post {
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.latest-post_img {
+  margin-top: 40px;
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .latest-post {
+    display: flex;
+  }
+  .latest-post_img {
+    padding-right: 20px;
+    width: 60%;
+  }
+  .latest-post_header {
+    padding-left: 20px;
+    width: 40%;
+  }
+}
+
+/* line break */
+.line-break {
+  position: relative;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.line-break_h2 {
+  position: absolute;
+  font-style: italic;
+  background-color: white;
+  padding: 5px 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -77%);
+}
 
 .row-of-cards {
   display: flex;
@@ -128,22 +198,6 @@ img.cover {
   transform: translate(-50%, -50%);
   color: white;
   margin: 0;
-}
-
-.line-break {
-  position: relative;
-  text-align: center;
-  margin: 20px 0;
-}
-
-.line-break-text {
-  position: absolute;
-  font-style: italic;
-  background-color: white;
-  padding: 5px 20px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* Post */
