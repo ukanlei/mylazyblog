@@ -6,52 +6,52 @@ templateClass: tmpl-home
 {# The Home page uses this template–it extends the base template #}
 
 <div class="wrapper">
-  <div class="content">
+  <div class="all-content">
     <article class="latest-post">
       <img class="latest-post_img" src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
-      <header class = "latest-post_header">
+      <header class="latest-post_header">
         <button class="card-tags">{{info.section1.tag}}</button>
         <h1>{{info.section1.title}}</h1>
-        <p>{{info.section1.summary}}</p>
+        <p class="latest-post_summary">{{info.section1.summary}}</p>
         <a href="/">
           <span>&#8594;</span>
         </a>
       </header>
     </article>
-    <div  class="line-break"> 
-      <h1 class="line-break_h1">MORE STUFF TO READ!!!!!!!</h1>
+    <div> 
+      <h2 class="line-break_h1">MORE STUFF TO READ!!!!!!!</h2>
     </div>
-    <section class="row-of-cards">
-      <div class="cards">
-        <img class="cards" src="{{info.section3.card1.img}}" alt="{{info.section3.card1.imgAlt}}">
-        <div class="header-card">
-          <button class="card-tags">{{info.section3.card1.tag}}</button>
-          <h4>{{info.section3.card1.title}}</h4>
-          <p>{{info.section3.card1.summary}}</p>
-   
-        </div>
-      </div>
-      <div class="cards">
-        <img class="cards" src="{{info.section3.card2.img}}" alt="{{info.section3.card2.imgAlt}}">
-        <div class="header-card">
-          <button class="card-tags">{{info.section3.card2.tag}}</button>
-            <h4>{{info.section3.card2.title}}</h4>
+      <section class="row-of-cards">
+        <div class="cards">
+          <img class="cards_img" src="{{info.section3.card1.img}}" alt="{{info.section3.card1.imgAlt}}">
+          <div class="header-card">
+            <button class="card-tags">{{info.section3.card1.tag}}</button>
+            <h4>{{info.section3.card1.title}}</h4>
             <p>{{info.section3.card1.summary}}</p>
+          </div>
         </div>
-      </div>
-      <div class="cards">
-        <img class="cards" src="{{info.section3.card3.img}}" alt="{{info.section3.card3.imgAlt}}">
-        <div class="header-card">
-          <button class="card-tags">{{info.section3.card3.tag}}</button>
-          <h4>{{info.section3.card3.title}}</h4>
-          <p>{{info.section3.card1.summary}}</p>
+        <div class="cards">
+          <img class="cards_img" src="{{info.section3.card2.img}}" alt="{{info.section3.card2.imgAlt}}">
+          <div class="header-card">
+            <button class="card-tags">{{info.section3.card2.tag}}</button>
+              <h4>{{info.section3.card2.title}}</h4>
+              <p>{{info.section3.card1.summary}}</p>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="lazySection">
-      <img class="cover" src="{{info.section2.img}}" alt="{{info.section2.imgAlt}}">
-      <h1 class="whoislazy">{{info.section2.title}}</hq>
-    </section>
+        <div class="cards">
+          <img class="cards_img" src="{{info.section3.card3.img}}" alt="{{info.section3.card3.imgAlt}}">
+          <div class="header-card">
+            <button class="card-tags">{{info.section3.card3.tag}}</button>
+            <h4>{{info.section3.card3.title}}</h4>
+            <p>{{info.section3.card1.summary}}</p>
+          </div>
+        </div>
+      </section>
+      <section class="who-is-lazy">
+        <img class="who-is-lazy_img" src="{{info.section2.img}}" alt="{{info.section2.imgAlt}}">
+        <h2 class="who-is-lazy_header">{{info.section2.title}}</h2>
+      </section>
+    </div>
   </div>
 </div>
 
