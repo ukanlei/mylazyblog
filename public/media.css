@@ -26,11 +26,16 @@
   .latest-post_img {
     width: 70%;
   }
+  .latest-post {
+    margin-bottom: 7rem;
+  }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1399px) {
   .all-content {
     max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .latest-post {
     display: flex;
@@ -56,11 +61,15 @@
   .latest-post_img {
     width: 70%;
   }
+  .latest-post {
+    margin-bottom: 7rem;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 999px) {
   .all-content {
     max-width: 900px;
   }
+
   .row-of-cards {
     margin-left: auto;
     margin-right: auto;
@@ -83,15 +92,21 @@
   h4 {
     font-size: 40px;
   }
+  .latest-post {
+    margin-bottom: 5rem;
+  }
 }
 @media screen and (max-width: 999px) {
   .wrapper {
-    margin-top: 8.5rem;
+    margin-top: 14%;
   }
   .main-header {
     display: none;
   }
   .latest-post_img {
     width: 100%;
+  }
+  .latest-post {
+    margin-bottom: 3rem;
   }
 }
