@@ -6,11 +6,11 @@ templateClass: tmpl-home
 {# This is the template for individual blog posts–it builds the front matter properties into the page #}
 
 <div class="wrapper post">
-  <div class="content">
+  <div class="all-content">
     {# The post front matter includes the title property #}
-    <img src="{{image}}" alt="{{imageAlt}}" />
+    <img class="post_img" src="{{image}}" alt="{{imageAlt}}" />
     <span>
-    <button class="tags">{{category}}</button>
+    <button class="card-tags">{{category}}</button>
     </span>
     <h1 class="postTitle">{{title}}</h1>
 
