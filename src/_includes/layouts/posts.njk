@@ -6,7 +6,7 @@ templateClass: tmpl-home
 {# This is the template for the Posts page–it lists the posts in the collection #}
 
 <div class="wrapper home">
-  <div class="content">
+  <div class="all-content">
     {{ content | safe }}
     <ul>
       {%- for post in collections.posts -%}

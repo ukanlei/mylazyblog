@@ -1,0 +1,106 @@
+/* base structure */
+/*header nav a {
+  margin: 4%;
+}
+header nav {
+  text-align: center;
+  font-size: 1.1vw;
+  margin-top: 10px;
+}
+
+footer {
+  padding: 30px;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header-logo {
+  text-align: center;
+  font-size: 10vw;
+  margin-top: 0;
+}
+.wrapper {
+  min-height: var(--wrapper-height);
+  max-width: 1300px;
+}
+
+/* Layout: Home */
+/*.all-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.latest-post {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* line break */
+/*.line-break_h1 {
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* cards */
+/*.cards {
+  text-align: center;
+}
+.cards_img {
+  width: 98%;
+}
+.card-tags {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.header-card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*lazy section*/ /*
+.who-is-lazy {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.who-is-lazy_img {
+  width: 97.5%;
+}
+.who-is-lazy_header {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #000;
+  padding: 10px 0;
+  margin: 0;
+  width: 500px;
+}
+
+/* Post */
+/*.post {
+  place-items: normal;
+}
+.postTitle {
+  font-size: 4rem;
+  color: #000;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+.controls {
+  margin: 3rem 0 2rem;
+}
+*/

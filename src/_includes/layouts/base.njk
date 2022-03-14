@@ -16,39 +16,25 @@
     <link rel="stylesheet" type="text/css" href="/public/style.css"/> {% seo "" %}
   </head>
   <body>
-    <header class="header-small">
-      <h1 class="header-logo-small">LAZZZZZY COOK :)</h1>
-    </header>
-    <header class="main-header">
-      <h1 class="header-logo">LAZZZZZY COOK :)</h1>
-      <nav>
-        <a>
-          =================
-        </a>
-        <a href="/">Home</a>
-        <a href="/random">Random</a>
-        <a href="/food">Food</a>
-        <a href="/grocery">Grocery</a>
-        <a href="/about">About</a>
-        <a>
-          =================
-        </a>
-      </nav>
-    </header>
-    <main>
-      {# Page or post content will appear here #}
-      {{ content | safe }}
-    </main>
-    <footer class="footer">
-      <p>◥█̆̈◤࿉∥</p>
-      <div class="copyright">
-        Copyright 2022 © Lazy Cook. Built with Eleventy, Glitch, and lots of naps.
-      </div>
-      <nav class="footer-nav">
-        <a href="/">Contact</a>
-        <span class="divider">|</span>
-        <a href="/posts">About</a>
-      </nav>
-    </footer>
+      <header class="header-mobile">
+        <h1 class="logo-mobile">LAZZZZZY COOK :)</h1>
+      </header>
+      <div class="container-fluid">
+      <main>
+        {# Page or post content will appear here #}
+        {{ content | safe }}
+      </main>
+      <footer class="footer">
+        <p>◥█̆̈◤࿉∥</p>
+        <div class="copyright">
+          Copyright 2022 © Lazy Cook. Built with Eleventy, Glitch, and lots of naps.
+        </div>
+        <nav class="footer-nav">
+          <a href="/">Contact</a>
+          <span class="divider">|</span>
+          <a href="/posts">About</a>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html></body></html></body></html>

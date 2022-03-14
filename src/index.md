@@ -15,7 +15,7 @@ info:
     imgAlt: Drawing face over some lady
   section3:
     card1:
-      tag: Life
+      tag: Random
       title: Feed the Piggy
       summary: Got disposable income? Feed my tummy and throw it here.
       img: /images/piggys.png

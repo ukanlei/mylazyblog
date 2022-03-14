@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+/*@media screen and (min-width: 1300px) {
   h1 {
     font-size: 50px;
   }
@@ -65,6 +65,7 @@
     margin-bottom: 7rem;
   }
 }
+
 @media screen and (min-width: 800px) and (max-width: 999px) {
   .all-content {
     max-width: 900px;
@@ -109,4 +110,4 @@
   .latest-post {
     margin-bottom: 3rem;
   }
-}
+}*/
