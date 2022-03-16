@@ -57,27 +57,33 @@ footer {
   font-size: 0.8rem;
   text-align: center;
 }
-
 /* header-logo */
-.header-mobile {
+.header-nav {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: white;
   border-bottom: 2px solid #000;
 }
-.logo-mobile {
+.logo {
   text-align: center;
   font-size: 6vw;
 }
 
 /* Home structure */
+.wrapper {
+  margin-top: 20%;
+}
 .latest-post {
   text-align: center;
   padding-bottom: 1rem;
   box-shadow: 5px 10px;
 }
+.latest-post_img {
+  width: 98%;
+}
 .line-break {
+  margin-top: 3rem;
   font-style: italic;
   text-align: center;
   text-decoration: underline;

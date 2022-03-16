@@ -6,7 +6,7 @@ templateClass: tmpl-home
 {# The Home page uses this template–it extends the base template #}
 
 <div class="wrapper">
-  <div class="all-content">
+  <div>
     <article class="latest-post">
       <img class="latest-post_img" src="{{info.section1.img}}" alt="{{info.section1.imgAlt}}">
       <header class="latest-post_header">
@@ -18,15 +18,15 @@ templateClass: tmpl-home
         </a>
       </header>
     </article>
-    <div> 
-      <h2 class="line-break">MORE STUFF TO READ!!!!!!!</h2>
+    <div class="line-break"> 
+      <h2>MORE STUFF TO READ!!!!!!!</h2>
     </div>
       <section class="row-of-cards">
         <div class="cards">
           <img class="card_img" src="{{info.section3.card1.img}}" alt="{{info.section3.card1.imgAlt}}">
           <div class="header-card">
             <button class="tags">{{info.section3.card1.tag}}</button>
-            <h2>{{info.section3.card1.title}}</h4>
+            <h3>{{info.section3.card1.title}}</h4>
             <p>{{info.section3.card1.summary}}</p>
           </div>
         </div>

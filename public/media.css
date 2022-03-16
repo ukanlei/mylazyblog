@@ -1,0 +1,13 @@
+@media screen and (min-width: 450px) {
+  .cards {
+    display: flex;
+    align-items: center;
+  }
+  .card_img {
+    max-width: 50%;
+  }
+  .header-card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
